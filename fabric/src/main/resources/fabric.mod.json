@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "wiredstoneless",
+  "version": "${version}",
+  "name": "WiRedstoneLess",
+  "description": "Adds wireless redstone emitters and receivers and headgear to view the beams",
+  "authors": [
+    "NoLifeKing85"
+  ],
+  "contact": {
+    "website": "https://nolifeking85.tv",
+    "repo": "",
+    "issues": ""
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "tv.nolifeking85.wiredstoneless.fabric.WiRedstoneLessFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "minecraft": ">=1.19.2"
+  }
+}
